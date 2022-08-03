@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
   },
   location: {
     type: String,
-    default: "Bangkok",
+    default: "Thailand",
   },
   data: {
     type: Date,
